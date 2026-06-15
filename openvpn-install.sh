@@ -49,7 +49,7 @@ if [[ "$os" == "debian" ]]; then
 		echo "Debian Testing and Debian Unstable are unsupported by this installer."
 		exit
 	fi
-	if [[ "$os_version" -lt 11 ]]; then
+	if [[ "$os_version" -lt 10 ]]; then
 		echo "Debian 11 or higher is required to use this installer.
 This version of Debian is too old and unsupported."
 		exit
